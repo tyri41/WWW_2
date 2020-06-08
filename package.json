@@ -20,8 +20,10 @@
   "homepage": "https://github.com/tyri41/WWW_2#readme",
   "watch": {
     "build": {
-        "patterns": ["."],
-        "extensions": "ts"
+      "patterns": [
+        "."
+      ],
+      "extensions": "ts"
     }
   },
   "dependencies": {
@@ -30,6 +32,8 @@
     "typescript": "^3.9.5"
   },
   "devDependencies": {
-    "mocha": "^7.2.0"
+    "@types/node": "^14.0.12",
+    "mocha": "^7.2.0",
+    "ts-node": "^8.10.2"
   }
 }
