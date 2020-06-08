@@ -1,0 +1,35 @@
+{
+  "name": "www_2",
+  "version": "1.0.0",
+  "description": "repozytorium na laby 8+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --target es2015 program.ts",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyri41/WWW_2.git"
+  },
+  "author": "Grzegorz Kwiatkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyri41/WWW_2/issues"
+  },
+  "homepage": "https://github.com/tyri41/WWW_2#readme",
+  "watch": {
+    "build": {
+        "patterns": ["."],
+        "extensions": "ts"
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm-watch": "^0.6.0",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
